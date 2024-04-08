@@ -1,5 +1,5 @@
-function sayHello(name){
-    console.log(`hello ${name}`);
-}
+// console.log(global);
+// console.log(module);
+let message = require('./logIn');
 
-sayHello("kate");
+console.log(message('kate'));
